@@ -37,3 +37,4 @@ In the end, I chose this solution because it provided the most straightforward i
    ```bash
    git clone <repository_url>
    cd <repository_name>
+   python3 src/extract_logs.py 2024-12-01
