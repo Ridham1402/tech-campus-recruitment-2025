@@ -32,9 +32,10 @@ In the end, I chose this solution because it provided the most straightforward i
 
 1. **Clone the Repository**:
    
-   First, clone the repository to your local machine to get access to the script and the required files.
+   First, clone the repository to your local machine to get access to the script and the required files. Add the large log file to this repository.
    
    ```bash
    git clone <repository_url>
    cd <repository_name>
+   curl -L -o test_logs.log "https://limewire.com/d/90794bb3-6831-4e02-8a59-ffc7f3b8b2a3#X1xnzrH5s4H_DKEkT_dfBuUT1mFKZuj4cFWNoMJGX98"
    python3 src/extract_logs.py 2024-12-01
